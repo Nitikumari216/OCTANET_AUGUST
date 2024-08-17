@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+main{
+    width: 100%;
+    min-width: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url("https://in.images.search.yahoo.com/images/view;_ylt=AwrKAITnmKxmnXoAYE69HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzc5OTkwOTVjYmUwNzQxMzc1MTAzNmU1MmRjMDBkNDkxBGdwb3MDNgRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D6&w=1920&h=1200&imgurl=www.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FWonderful-Nature-Colorful-Scene-HD.jpg&rurl=http%3A%2F%2Fwww.pixelstalk.net%2Fcool-laptop-wallpapers-hd%2F&size=1486.9KB&p=background+images&oid=7999095cbe07413751036e52dc00d491&fr2=piv-web&fr=mcafee&tt=Cool+Laptop+Wallpapers+HD+%7C+PixelsTalk.Net&b=0&ni=21&no=6&ts=&tab=organic&sigr=uQvt95opRUbS&sigb=M7R4yMBJqbM7&sigi=nftNbhJrzcp7&sigt=kqnyfeXZlEVt&.crumb=FZZ4/tKghFj&fr=mcafee&fr2=piv-web&type=E210IN885G0");
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.296);
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text.image{
+    background-image: url("https://in.images.search.yahoo.com/images/view;_ylt=AwrKAITnmKxmnXoAgU69HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzA4ODM5ZWQ0OWJkYjYxZjNjNDE2OTE2MmNkYjYwNzY1BGdwb3MDMzkEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D39&w=1920&h=1200&imgurl=www.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FFree-hd-beautiful-sunset-photos.jpg&rurl=https%3A%2F%2Fwww.pixelstalk.net%2Fbeautiful-wallpapers-for-computer%2F&size=1557.5KB&p=background+images&oid=08839ed49bdb61f3c4169162cdb60765&fr2=piv-web&fr=mcafee&tt=Beautiful+Wallpapers+For+Computer&b=0&ni=21&no=39&ts=&tab=organic&sigr=q7FKje4QGFMo&sigb=5rAUfsyptTBN&sigi=dU59g7pHTUyH&sigt=HgzQK54KGdcQ&.crumb=FZZ4/tKghFj&fr=mcafee&fr2=piv-web&type=E210IN885G0");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width:220px;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between; 
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://in.images.search.yahoo.com/images/view;_ylt=Awrx_xk2p6xmoJ4IMdq9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzFlNWQ4YmMyNjBmMmUzNTEwMWJlMWI1ZjVjM2IxYTNjBGdwb3MDMjEEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D21&w=1920&h=1140&imgurl=wallpapercave.com%2Fwp%2Fwp3709137.jpg&rurl=https%3A%2F%2Fblogstallgger.blogspot.com%2F2021%2F06%2Fbest-photo-background-images-100-000.html&size=422.9KB&p=background+images&oid=1e5d8bc260f2e35101be1b5f5c3b1a3c&fr2=piv-web&fr=mcafee&tt=Best+Photo+Background+Images+%3A+100+000+Best+Free+Background+Images+...&b=0&ni=21&no=21&ts=&tab=organic&sigr=oVSxA_VivCea&sigb=FGQCr.2cmNJ2&sigi=0I4ohCKJUqwT&sigt=EWvVYgeugEYN&.crumb=FZZ4/tKghFj&fr=mcafee&fr2=piv-web&type=E210IN885G0);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 15px;
+}
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+}
+.b2 up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://in.images.search.yahoo.com/images/view;_ylt=Awrx_xk2p6xmoJ4ILtq9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2M3ZGE3NDRjMjNhYWNlNGUyODUyZWZhOTAyZDVjMzYwBGdwb3MDMTgEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D18&w=2651&h=1813&imgurl=wallpapertag.com%2Fwallpaper%2Ffull%2Fd%2F3%2Fc%2F968676-hi-res-background-images-2651x1813-retina.jpg&rurl=https%3A%2F%2Fsunflowerwallpaper.blogspot.com%2F2019%2F11%2Fwallpapers-hd-widescreen-high-quality.html&size=831.0KB&p=background+images&oid=c7da744c23aace4e2852efa902d5c360&fr2=piv-web&fr=mcafee&tt=Wallpapers+Hd+Widescreen+High+Quality+Desktop+Nature+-+All+New+Wallpaper&b=0&ni=21&no=18&ts=&tab=organic&sigr=ijmew8s8YiTh&sigb=OMyQ22ZxCnY.&sigi=G8GTjXn9ZBFb&sigt=IGIKJ8EgoqAy&.crumb=FZZ4/tKghFj&fr=mcafee&fr2=piv-web&type=E210IN885G0);
+    background-size: cover;
+    background-position: center;
+}
+b2 up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://in.images.search.yahoo.com/images/view;_ylt=Awrx_xk2p6xmoJ4IPdq9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzVmZjAyMTliN2QzMmYwMDQ5MmFjMjBjN2ZlM2FjYjVkBGdwb3MDMzMEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D33&w=2600&h=1728&imgurl=www.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F07%2FBackground-Beautiful-Nature-Images-HD.jpg&rurl=https%3A%2F%2Fwww.pixelstalk.net%2F1080p-hd-image-nature%2F&size=2001.6KB&p=background+images&oid=5ff0219b7d32f00492ac20c7fe3acb5d&fr2=piv-web&fr=mcafee&tt=1080p+HD+Image+Nature&b=0&ni=21&no=33&ts=&tab=organic&sigr=_8C6ieqpoz8J&sigb=C.3Gt.S1AZPL&sigi=CnoaPf9U45n9&sigt=gKzRmk2Ml0XU&.crumb=FZZ4/tKghFj&fr=mcafee&fr2=piv-web&type=E210IN885G0);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.351);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://in.images.search.yahoo.com/images/view;_ylt=AwrKAISgp6xmljYCqbG9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2RiNjhkMWMwZmViMzgzMjkxMDcxZWQ5ZDM2NDRlODA1BGdwb3MDODYEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26nost%3D1%26tab%3Dorganic%26ri%3D86&w=1920&h=1080&imgurl=wallpaperboat.com%2Fwp-content%2Fuploads%2F2019%2F10%2Fcool-website-background-13.jpg&rurl=https%3A%2F%2Fwallpaperboat.com%2Fcool-website-background&size=286.6KB&p=background+images&oid=db68d1c0feb383291071ed9d3644e805&fr2=piv-web&fr=mcafee&tt=23+Cool+Website+Background+-+Wallpaperboat&b=61&ni=21&no=86&ts=&tab=organic&sigr=pPJ.QSa8P7g5&sigb=ILznDfLPb4lx&sigi=LeMnGgzzout9&sigt=WFklgGJewTEJ&.crumb=FZZ4/tKghFj&fr=mcafee&fr2=piv-web&type=E210IN885G0);
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+}
+@media(maz-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+@media(max-width: 500px){
+ .text{
+    flex-direction: column;
+    align-items: flex-start;
+ }   
+ .text h1{
+    font-size: 5vh;
+ }
+.text .image{
+    height: 200px;
+    width: 140px;
+    margin-top: 20px;
+}
+.rtext{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rtext p{
+    margin-top: 10px;
+}
+.icons{
+    margin-top: 10px;
+}
+.bottom{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.b1{
+    width: 100%;
+    min-height: 30vh;
+}
+.b2{
+    width: 100%;
+}
+.b2 up{
+    min-height: 30vh;
+}
+.b3{
+    width: 100%;
+    min-height: 30vh;
+    background-position: left;
+
+}
+}
